@@ -8,4 +8,10 @@ void tampilkanMenu(){
     cout << "3. Daftar lahan parkir kosong\n";
     cout << "4. Keluar dari parkir\n";
     cout << "5. Keluar dari program\n";
-}s
+}
+
+int main(){
+
+
+    return 0;
+}
