@@ -1,4 +1,7 @@
 #include <iostream>
+#include <unordered_map>
+#include <ctime>
+#include <thread>
 using namespace std;
 
 void tampilkanMenu(){
