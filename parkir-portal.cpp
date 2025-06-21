@@ -4,6 +4,13 @@
 #include <thread>
 using namespace std;
 
+struct parkir{
+    string kartuID;
+    string kendaraan;
+    time_t waktuMasuk;
+};
+
+
 void tampilkanMenu(){
     cout << "\n === Sistem Parkir Portal ===\n";
     cout << "1. Tampilkan kartu\n";
