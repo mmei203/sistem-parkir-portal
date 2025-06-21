@@ -31,6 +31,10 @@ public:
         cout << "4. Keluar dari parkir\n";
         cout << "5. Keluar dari program\n";
     }
+
+    void tambahKartu(string kartuID , string kendaraan) {
+        
+    }
 };
 
 int main () {
