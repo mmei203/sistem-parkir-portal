@@ -38,7 +38,17 @@ public:
             cout << "Silahkan tunggu beberapa saat.";
             return;
         }   
+
+    int lokasi = lahanKosong.back();
+    lahanKosong.pop_back();
+
+    parkir parkirBaru = {kartuID, kendaraan, time(0)};
+    parkirAktif[kartuID] = parkirBaru;
+
+    cout << "Kendaraan" << kendaraan << "masuk ke lahan" << lokasi << "\n";
     }
+
+    
 };
 
 int main () {
