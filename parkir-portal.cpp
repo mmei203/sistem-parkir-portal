@@ -33,7 +33,11 @@ public:
     }
 
     void tambahKartu(string kartuID , string kendaraan) {
-        
+     if (lahanKosong.empty()){
+            cout << "Parkir penuh!\n";
+            cout << "Silahkan tunggu beberapa saat.";
+            return;
+        }   
     }
 };
 
